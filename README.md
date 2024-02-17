@@ -1,2 +1,2 @@
 # ShippingFeeCalculator
-Numerical Methods Project that calculates the shipping fee based on the country to be delivered and its weight in grams
+Numerical Methods Project that calculates the shipping fee based on the country to be delivered and its weight in grams by utilizing the interpolation method.
