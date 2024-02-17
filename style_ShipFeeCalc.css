@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+   body {
+   
+      height: 100%;
+      display: flex;
+      min-height: 100vh;
+        margin: 0;
+    
+    
+  }
+  .v21_2 {
+    width: 100%;
+    height: 1086px;
+    background: rgba(200,233,227,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v56_423 {
+    width: 100%;
+    height: 48px;
+    background: rgba(42,42,42,1);
+    opacity: 1;
+    position: absolute;
+    top: 1038px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .v61_436 {
+    width: 360px;
+    height: 69px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 277px;
+    left: 956px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v40_186 {
+    width: 464px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 80px;
+    left: 481px;
+    text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v40_108 {
+    width: 628px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 161px;
+    left: 481px;
+    font-family: Montserrat;
+    font-weight: ExtraLight;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v40_193 {
+    width: 280px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 290px;
+    left: 970px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 34px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v61_435 {
+    width: 224px;
+    height: 53px;
+    background: url("../images/v61_435.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 368px;
+    left: 482px;
+    overflow: hidden;
+  }
+  .v61_433 { 
+    width: 150px;
+    height: 46px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 37px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+  }
+
+  button{
+    width: 165px;
+    height: 46px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 22.5px;
+    border-radius: 10px;
+   border-color: blanchedalmond;
+  }
+
+  .Calc{
+    color: rgba(0,0,0,1);
+    position: absolute; 
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v61_432 {
+    width: 224px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    font-family: Montserrat;
+    font-weight: ExtraLight;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v60_425 {
+    width: 400px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 477px;
+    left: 64px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  
+  .v60_426 {
+    width: 408px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 477px;
+    left: 788px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v40_106 {
+    width: 431px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 30px;
+    left: 777px;
+    text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-weight: ExtraBold;
+    font-size: 128px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v40_107 {
+    width: 542px;
+    height: 1px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 163px;
+    left: 482px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+
+  .form .form-control{
+    position: absolute;
+    top: 265px;
+    left: 482px;
+    
+  }
+  .weight_input{
+    width: 219px;
+    height: 37px;
+    box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: white;
+  }
+
+   .Country_Drop{
+    position: absolute;
+    top: 318px;
+    left: 482px;
+    width: 219px;
+    height: 37px;
+    box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v40_187 {
+    width: 349px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1045px;
+    left: 545px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v40_189 {
+    width: 204px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 327px;
+    left: 492px;
+    font-family: Montserrat;
+    font-weight: ExtraLight;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v40_188 {
+    width: 204px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 276px;
+    left: 489px;
+    font-family: Montserrat;
+    font-weight: ExtraLight;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v40_191 {
+    width: 204px;
+    color: rgba(87,87,87,1);
+    position: absolute;
+    top: 304px;
+    left: 489px;
+    font-family: Montserrat;
+    font-weight: ExtraLight Italic;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+   .v40_161 {
+    width: 183px;
+    height: 106px;
+    background: rgba(42,42,42,1);
+    opacity: 1;
+    position: absolute;
+    top: 258px;
+    left: 740px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  } 
+
+ 
+
+  
+  .v40_194 {
+    width: 143px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 230px;
+    left: 760px;
+    text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 128px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  
+  
+  .v60_427 {
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 559px;
+    left: 788px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  
+  .v60_428 {
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 855px;
+    left: 783px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v60_429 {
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 633px;
+    left: 788px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .d_x0{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 559px;
+    left: 64px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .d_x1{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top:633px;
+    left: 64px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .d_x2{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top:707px;
+    left: 64px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .d_x3{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top:781px;
+    left: 64px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .d_x4{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top:855px;
+    left: 64px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .v60_430 {
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 781px;
+    left: 788px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v60_431 {
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 707px;
+    left: 788px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v61_438 {
+    width: 149px;
+    height: 149px;
+    background: url("../images/v61_438.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 72px;
+    left: 321px;
+    overflow: hidden;
+  }
+  .v40_105 {
+    width: 145px;
+    height: 145px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    object-fit: cover  ;
+    object-position: center center;
+    top: 0px;
+    left: 4px;
+    
+    border-radius: 50%;
+    box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v61_437 {
+    width: 97px;
+    height: 97px;
+    background: url("fishing-boat.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 22px;
+    left: 26px;
+    overflow: hidden;
+  }
+
+  .form-line li{
+    text-decoration: none;
+  }
